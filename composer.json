@@ -8,5 +8,14 @@
             "email": "pz@iqstudio.pl"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "IqStudio\\PersonGenerator\\" : [
+                "src/"
+            ]
+        }
+    },
+    "require": {
+        "php" : "^7.1"
+    }
 }
