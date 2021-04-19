@@ -1,0 +1,27 @@
+{
+    "name": "iqstudiopl/fake-data-generator",
+    "description": "Generates fake personal data",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Piotr Zając",
+            "email": "pz@iqstudio.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IQStudio\\PersonGenerator\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IQStudio\\Test\\PersonGenerator\\" : "test/"
+        }
+    },
+    "require": {
+        "php" : "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
